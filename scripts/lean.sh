@@ -152,6 +152,6 @@ sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_genera
 #echo -e " DHDAXCW's FusionWrt built on "$(date +%Y.%m.%d)"\n -----------------------------------------------------" >> package/base-files/files/etc/banner
 
 # Add CUPInfo
-pushd package/lean/autocore/files/arm/sbin
-cp -f $GITHUB_WORKSPACE/scripts/cpuinfo cpuinfo
-popd
+#pushd package/lean/autocore/files/arm/sbin
+#cp -f $GITHUB_WORKSPACE/scripts/cpuinfo cpuinfo
+#popd
