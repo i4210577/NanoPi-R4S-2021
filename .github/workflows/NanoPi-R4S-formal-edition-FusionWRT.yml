@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: NanoPi R4S 正式版 FusionWRT
+name: NanoPi-R4S-正式版-FusionWRT
 
 on:
   repository_dispatch:
@@ -278,7 +278,7 @@ jobs:
           files: ${{ env.FIRMWARE }}/*
 
       - name: 删除工作流运行
-      uses: Mattraks/delete-workflow-runs@v2
+        uses: Mattraks/delete-workflow-runs@v2
         with:
           retain_days: 1
           keep_minimum_runs: 1
